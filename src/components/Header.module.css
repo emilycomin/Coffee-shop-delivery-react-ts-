@@ -1,0 +1,29 @@
+.headerContainer{
+    display: flex;
+    align-items: center;
+    padding: 34px 160px;
+    position: fixed;
+    width: 80%;
+    top: 0;
+    justify-content: space-between;
+}
+.iconsContainer{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+}
+.cartSvg{
+    background-color: var(--yeloow-light);
+    padding: 8px;
+    border-radius: 6px;
+}
+.iconsContainer > span{
+    background-color: var(--purple-light);
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+    padding: 8px;
+    gap: 4px;
+    font-family: 'Roboto', sans-serif;
+}
