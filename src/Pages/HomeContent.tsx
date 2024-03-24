@@ -6,6 +6,7 @@ import {
   Package,
   Coffee,
 } from "@phosphor-icons/react/dist/ssr";
+import { Products } from "../components/Products";
 
 export function HomeContent() {
   return (
@@ -79,6 +80,12 @@ export function HomeContent() {
           </div>
         </div>
         <img src={coffeeCup} alt="" />
+      </div>
+      <div className={Styles.productsContainer}>
+        <Products />
+        <Products />
+        <Products />
+        <Products />
       </div>
     </div>
   );

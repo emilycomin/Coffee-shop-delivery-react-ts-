@@ -44,3 +44,9 @@
     align-items: center;
     font-family: 'Roboto', sans-serif;
 }
+
+.productsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

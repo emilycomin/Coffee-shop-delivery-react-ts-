@@ -10,7 +10,7 @@ export function Products() {
         <h1>Expresso Tradicional</h1>
         <p>O tradicional café feito com água quente e gãios moídos</p>
         <div className={Styles.footerCard}>
-          <span className={Styles.spanPreco}>R$ 9,90 </span>
+          <h1 className={Styles.spanPreco}>R$ 9,90 </h1>
           <div className={Styles.itemCountProduct}>
             <input type="text" />
             <div className={Styles.buttonItemCount}>
